@@ -29,7 +29,7 @@ class Fiat extends Car {
   }
   public function getMyVin()
   {
-    return $this->getVin()
+    return $this->getVin();
   }
   public function printMessage()
   {
