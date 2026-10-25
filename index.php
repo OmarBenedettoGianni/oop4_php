@@ -33,10 +33,10 @@ class Fiat extends Car {
   }
   public function printMessage()
   {
-    echo " la MIA macchina è una $this->name con targa $this->license e  con VIN " . this->getMyVin() ."\n";
+    echo " la MIA macchina è una $this->name con targa $this->license e  con VIN " . $this->getMyVin() ."\n";
   }
 }
 
-$car = new Fiat('aa 0000 bb','Mahindra');
+$car = new Fiat('aa0000bb','Mahindra');
 $car->setMyVin('00000000000000A');
 $car->printMessage();
